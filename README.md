@@ -1,2 +1,2 @@
 # dot-files
-Configuration files
+Configuration files for Zathura, Spacemacs, and Qute Browser.
