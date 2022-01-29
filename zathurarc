@@ -10,3 +10,4 @@ set recolor-lightcolor "#282828"
 set highlight-color "#3c3836"
 set highlight-active-color "#928374"
 set recolor true
+set font "Jetbrains Mono 10"
