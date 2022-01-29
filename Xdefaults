@@ -1,0 +1,58 @@
+!  __   __   _       __            _ _       
+!  \ \ / /  | |     / _|          | | |      
+!   \ V / __| | ___| |_ __ _ _   _| | |_ ___ 
+!    > < / _` |/ _ \  _/ _` | | | | | __/ __|
+! _ / . \ (_| |  __/ || (_| | |_| | | |_\__ \
+!(_)_/ \_\__,_|\___|_| \__,_|\__,_|_|\__|___/
+!------------------------------------------------------------------------------
+!color settings
+!FG/BG
+*background: #282828
+*foreground: #F4F4B9
+!Defaults
+!black
+*color0:  #222222
+*color8:  #5D6464
+!red
+*color1:  #9F3F3F
+*color9:  #9F3030
+! 2: green
+*color2:  #67B06C
+*color10: #54B05B
+!yellow
+*color3:  #d0d293
+*color11: #CFD27E
+!blue
+*color4:  #6FA2C9
+*color12: #5A99C9
+!magenta
+*color5:  #B45C9C
+*color13: #B44C98
+!cyan
+*color6:  #40BCC6
+*color14: #2CBAC6
+!white
+*color7:  #EBE2E2
+*color15: #EBCACA
+!------------------------------------------------------------------------------
+!rxvt Unicode
+URxvt.letterSpace:-1
+URxvt.font: xft: Jet Brains Mono :size=12
+URxvt.perl-ext-common:default,matcher,resize-font,bell-command,
+URxvt.clipboard.autocopy: true
+URxvt.url-launcher: /usr/bin/xdg-open
+URxvt.matcher.button: 1
+URxvt.scrollBar: false
+URxvt*scrollBar_right:true
+URxvt.iso14755: false
+URxvt.iso14755_52: false
+URxvt.internalBorder: 15
+URxvt.cursorBlink: 1
+URxvt*geometry: 70x17
+URxvt.urgentOnBell: True
+urxvt*depth: 32
+URxvt*foreground: rgb:F4/F4/B9
+URxvt*cursorColor: #67B06C
+URxvt.keysym.CTRL++:  resize-font:smaller
+URxvt.keysym.CTRL+-:    resize-font:bigger
+Xcursor.theme:Breeze-Snow
