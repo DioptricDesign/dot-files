@@ -1,7 +1,13 @@
+#Bindings from DT (https://gitlab.com/dwt1/dotfiles/-/blob/master/.config/qutebrowser/config.py)
 config.bind('M', 'hint links spawn mpv {hint-url}')
+config.bind('xb', 'config-cycle statusbar.show always never')
+config.bind('xt', 'config-cycle tabs.show always never')
+
 config.load_autoconfig(False)
 c.url.start_pages = ["file:///home/user/.local/share/Start%20Page/min-startpage/min.html"]
 c.url.default_page = "file:///home/user/.local/share/Start%20Page/min-startpage/min.html"
+
+# Adblock list from nephitejnf (https://gist.github.com/nephitejnf/3457258c0c4d444c33f562444e7b795c)
 c.content.blocking.method = 'both'
 c.content.blocking.adblock.lists = [
         "https://easylist.to/easylist/easylist.txt",
@@ -23,6 +29,7 @@ c.content.blocking.adblock.lists = [
         "https://secure.fanboy.co.nz/fanboy-cookiemonster.txt",
         "https://github.com/uBlockOrigin/uAssets/raw/master/filters/unbreak.txt"]
 
+# Modified Font settings from Ape (https://gist.github.com/Ape/d0c48b3f7ec9c8efaecf48eaa1e75d0d)
 monospace = "12px 'JetBrains Mono'"
 # Font used in the completion categories.
 c.fonts.completion.category = f"bold {monospace}"
