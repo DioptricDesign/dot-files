@@ -4,8 +4,8 @@ config.bind('xb', 'config-cycle statusbar.show always never')
 config.bind('xt', 'config-cycle tabs.show always never')
 
 config.load_autoconfig(False)
-c.url.start_pages = ["file:///home/user/.local/share/start-page/min-startpage/min.html"]
-c.url.default_page = "file:///home/user/.local/share/start-page/min-startpage/min.html"
+c.url.start_pages = ["file:///home/user/.local/share/start-page/min.html"]
+c.url.default_page = "file:///home/user/.local/share/start-page/min.html"
 
 # Adblock list from nephitejnf (https://gist.github.com/nephitejnf/3457258c0c4d444c33f562444e7b795c)
 c.content.blocking.method = 'both'
