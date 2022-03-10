@@ -31,6 +31,7 @@ c.content.blocking.adblock.lists = [
 
 # Modified Font settings from Ape (https://gist.github.com/Ape/d0c48b3f7ec9c8efaecf48eaa1e75d0d)
 monospace = "12px 'JetBrains Mono'"
+sans = "bold 12px 'Noto sans'"
 # Font used in the completion categories.
 c.fonts.completion.category = f"bold {monospace}"
 
@@ -62,8 +63,8 @@ c.fonts.prompts = monospace
 c.fonts.statusbar = monospace
 
 # Font used in the tab bar.
-c.fonts.tabs.selected = monospace
-c.fonts.tabs.unselected = monospace
+c.fonts.tabs.selected = sans 
+c.fonts.tabs.unselected = sans
 
 # Font used for the hints.
 c.fonts.hints = "bold 13px 'JetBrains Mono'"
