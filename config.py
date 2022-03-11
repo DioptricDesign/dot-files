@@ -1,3 +1,20 @@
+import subprocess, os, json
+
+#Pywal Colors
+colors = os.path.expanduser('~/.cache/wal/colors.json')
+colordict = json.load(open(colors))
+ColorZ=(colordict['colors']['color0'])
+ColorA=(colordict['colors']['color1'])
+ColorB=(colordict['colors']['color2'])
+ColorC=(colordict['colors']['color3'])
+ColorD=(colordict['colors']['color4'])
+ColorE=(colordict['colors']['color5'])
+ColorF=(colordict['colors']['color6'])
+ColorG=(colordict['colors']['color7'])
+ColorH=(colordict['colors']['color8'])
+ColorI=(colordict['colors']['color9'])
+
+
 #Bindings from DT (https://gitlab.com/dwt1/dotfiles/-/blob/master/.config/qutebrowser/config.py)
 config.bind('M', 'hint links spawn mpv {hint-url}')
 config.bind('xb', 'config-cycle statusbar.show always never')
@@ -89,7 +106,7 @@ bg4 = "#7c6f64"
 
 fg0 = "#fbf1c7"
 fg1 = "#ebdbb2"
-fg2 = "#d5c4a1"
+fg2 = ColorG
 fg3 = "#bdae93"
 fg4 = "#a89984"
 
