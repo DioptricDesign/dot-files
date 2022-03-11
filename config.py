@@ -33,7 +33,7 @@ c.content.blocking.adblock.lists = [
 monospace = "12px 'JetBrains Mono'"
 sans = "bold 12px 'Noto sans'"
 # Font used in the completion categories.
-c.fonts.completion.category = f"bold {monospace}"
+c.fonts.completion.category = "bold 12px 'JetBrains Mono'"
 
 # Font used in the completion widget.
 c.fonts.completion.entry = monospace
