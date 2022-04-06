@@ -341,7 +341,7 @@ c.colors.statusbar.url.fg = fg4
 c.colors.statusbar.url.error.fg = dark_red
 
 # Foreground color of the URL in the statusbar for hovered links.
-c.colors.statusbar.url.hover.fg = bright_orange
+c.colors.statusbar.url.hover.fg = bright_aqua
 
 # Foreground color of the URL in the statusbar on successful load
 # (http).
