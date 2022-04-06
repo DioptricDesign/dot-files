@@ -345,11 +345,11 @@ c.colors.statusbar.url.hover.fg = bright_aqua
 
 # Foreground color of the URL in the statusbar on successful load
 # (http).
-c.colors.statusbar.url.success.http.fg = fg0
+c.colors.statusbar.url.success.http.fg = fg2
 
 # Foreground color of the URL in the statusbar on successful load
 # (https).
-c.colors.statusbar.url.success.https.fg = fg0
+c.colors.statusbar.url.success.https.fg = fg2
 
 # Foreground color of the URL in the statusbar when there's a warning.
 c.colors.statusbar.url.warn.fg = bright_purple
