@@ -293,7 +293,7 @@ c.colors.statusbar.normal.bg = bg0
 c.colors.statusbar.insert.fg = fg2
 
 # Background color of the statusbar in insert mode.
-c.colors.statusbar.insert.bg = bg4
+c.colors.statusbar.insert.bg = bg0
 
 # Foreground color of the statusbar in passthrough mode.
 c.colors.statusbar.passthrough.fg = bg0
@@ -341,7 +341,7 @@ c.colors.statusbar.url.fg = fg4
 c.colors.statusbar.url.error.fg = dark_red
 
 # Foreground color of the URL in the statusbar for hovered links.
-c.colors.statusbar.url.hover.fg = bright_aqua
+c.colors.statusbar.url.hover.fg = ColorB
 
 # Foreground color of the URL in the statusbar on successful load
 # (http).
