@@ -363,7 +363,7 @@ c.colors.tabs.bar.bg = bg0
 c.colors.tabs.indicator.start = bright_blue
 
 # Color gradient end for the tab indicator.
-c.colors.tabs.indicator.stop = fg2
+c.colors.tabs.indicator.stop = ColorB
 
 # Color for the tab indicator on errors.
 c.colors.tabs.indicator.error = bright_red
