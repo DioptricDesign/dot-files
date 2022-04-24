@@ -293,7 +293,7 @@ c.colors.statusbar.normal.bg = bg0
 c.colors.statusbar.insert.fg = fg2
 
 # Background color of the statusbar in insert mode.
-c.colors.statusbar.insert.bg = bg0
+c.colors.statusbar.insert.bg = bg1
 
 # Foreground color of the statusbar in passthrough mode.
 c.colors.statusbar.passthrough.fg = bg0
