@@ -1,6 +1,7 @@
 configuration {
  location: 2;
  yoffset: 22;
+ fixed-num-lines: false; 
  modi: "window,drun,ssh,combi";
  font: "Jetbrains Mono 10";
  combi-modi: "window,drun,ssh";
